@@ -31,7 +31,7 @@
 // };
 import React from 'react';
 import { motion } from 'framer-motion';
-import { motion, HTMLMotionProps } from 'framer-motion';
+import type { HTMLMotionProps } from 'framer-motion';
 
 type ButtonProps = {
   variant?: 'primary' | 'secondary' | 'cyber';
